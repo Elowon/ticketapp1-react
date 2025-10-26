@@ -5,7 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/dashBoard";
 import TicketManagement from "./pages/TicketManagement";
 import SignupPage from "./pages/SignupPage";
-import LandingPage from "./pages/LandingPage";
+import LandingPage from "./pages/LandingPageTemp";
 
 
 
