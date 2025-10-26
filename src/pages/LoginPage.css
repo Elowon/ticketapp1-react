@@ -19,6 +19,7 @@
   width: 100%;
   max-width: 400px;
   text-align: center;
+
 }
 
 .login-form h1 {
@@ -71,27 +72,30 @@ p {
   margin-top: 10px;
 }
 
+
 @media (max-width: 768px) {
   .login-container {
-    padding: 40px 10px;
-    min-height: 100vh;
+    justify-content: flex-start; 
+    padding: 120px 20px 20px 20px; 
+    min-height: 100vh;        
   }
 
   .login-form {
-    padding: 30px 20px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    padding: 40px 20px;
+    width: 90%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   }
 
   .login-form h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem; 
   }
 
-  .login-form input,
+  .login-form input, 
   .login-form button {
-    padding: 10px;
+    padding: 10px; 
   }
 
   .login-form button {
-    font-size: 15px;
+    font-size: 15px; 
   }
 }
