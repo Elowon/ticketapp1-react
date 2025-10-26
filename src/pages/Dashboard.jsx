@@ -110,6 +110,7 @@ const Dashboard = () => {
           Go to Ticket Management
         </button>
       </div>
+
     </main>
   );
 };

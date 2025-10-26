@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./LoginPage.css";
 import NavigationBar from "../components/NavigationBar";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -57,7 +58,7 @@ const LoginPage = () => {
 
         <button type="submit">Login</button>
         <p>
-          Don't have an account? <a href="/auth/signup">Sign up</a>
+          Don't have an account? <Link to="/auth/signup">Sign up</Link>
         </p>
       </form>
 

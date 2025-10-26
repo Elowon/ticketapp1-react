@@ -4,6 +4,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Auth.css";
 import NavigationBar from "../components/NavigationBar";
+import { Link } from "react-router-dom";
 
 const SignupPage = () => {
   const navigate = useNavigate();
@@ -79,7 +80,7 @@ const SignupPage = () => {
         <button type="submit">Sign up</button>
         <p>
           Alredy have an account?
-          <a href="/auth/login">Login</a>
+          <Link to="/auth/login">Login</Link>
         </p>
       </form>
       <ToastContainer position="top-right" autoClose={3000} />
