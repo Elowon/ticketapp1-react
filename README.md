@@ -15,7 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-ABOUT MY PROJECT
+ABOUT MY PROJECT-
 TicketApp is a responsive, accessible, and secure Ticket Management System built with React.
 It allows users to sign up, log in, and manage tickets (Create, View, Edit, Delete) in a visually consistent interface.
 
@@ -101,7 +101,7 @@ React Toastify (for toasts)
 
 LocalStorage API (for mock authentication)
 
-CSS3 (Flexbox, Grid, clip-path)
+CSS3 (Flexbox, Grid, svg)
 
 🧩 Project Structure
 ticketapp-react/
@@ -116,11 +116,13 @@ ticketapp-react/
 │   │   ├── Dashboard.js
 │   │   └── TicketManagement.js
 │   ├── styles/
-│   │   ├── global.css
+│   │   ├── general.css
 │   │   ├── LandingPage.css
 │   │   ├── Dashboard.css
 │   │   ├── TicketManagement.css
 │   │   └── Auth.css
+        └── LoginPage.css
+|
 │   ├── App.js
 │   └── index.js
 └── package.json
@@ -137,4 +139,3 @@ npm install
 npm start
 
 
-App runs on → http://localhost:3000
