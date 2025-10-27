@@ -15,7 +15,9 @@ body {
   color: #1f2937;
   min-height: 100vh; 
 }
-
+footer {
+  box-shadow: 3px 3px 5px rgb(201, 196, 196);
+}
 
 .ticket-form {
   background: #ffffff;

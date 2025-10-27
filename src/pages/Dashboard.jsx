@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Dashboard.css";
+import Footer from "../components/footer";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -73,6 +74,7 @@ const Dashboard = () => {
   const closedTickets = tickets.filter((t) => t.status === "closed").length;
 
   return (
+    <>
     <main className="dashboard-container">
       <ToastContainer /> 
       <header className="dashboard-header">
@@ -110,8 +112,9 @@ const Dashboard = () => {
           Go to Ticket Management
         </button>
       </div>
-
     </main>
+    < Footer />
+    </>
   );
 };
 

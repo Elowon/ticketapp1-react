@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./LoginPage.css";
 import NavigationBar from "../components/NavigationBar";
 import { Link } from "react-router-dom";
+import Footer from "../components/footer";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -74,6 +75,8 @@ const LoginPage = () => {
         draggable
         pauseOnHover
       />
+
+      < Footer />
     </main>
   );
 };

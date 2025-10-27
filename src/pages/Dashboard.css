@@ -1,4 +1,13 @@
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .dashboard-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -7,6 +16,7 @@
   background-color: #1e3a8a;
   min-height: 100vh;
   color: white;
+  flex: 1
 }
 
 .dashboard-header {

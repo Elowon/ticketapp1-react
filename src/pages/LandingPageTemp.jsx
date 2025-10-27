@@ -45,6 +45,33 @@ const LandingPage = () => {
         </svg>
       </section>
 
+      <section class="features-section">
+    <h2>Why Choose TicketApp?</h2>
+
+    <div class="features-grid">
+      <div class="feature-box">
+        <h3>🎟 Easy Ticket Management</h3>
+        <p>Create, track, and update tickets effortlessly in one place.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>⚡ Real-Time Updates</h3>
+        <p>Stay informed with live ticket status and instant notifications.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>🔒 Secure Access</h3>
+        <p>Your account and data are protected with advanced encryption.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>📊 Smart Dashboard</h3>
+        <p>View open, closed, and in-progress tickets at a glance.</p>
+      </div>
+    </div>
+  </section>
+
+
       <Footer />
     </main>
     </>

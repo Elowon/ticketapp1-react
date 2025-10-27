@@ -4,6 +4,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./TicketManagement.css";
 import NavigationBar from "../components/NavigationBar"
+import Footer from "../components/footer";
 
 const TicketManagement = () => {
   const navigate = useNavigate();
@@ -145,6 +146,7 @@ const TicketManagement = () => {
 
       <ToastContainer position="top-right" autoClose={3000} />
     </main>
+    < Footer />
     </>
   );
 };

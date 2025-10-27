@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./Auth.css";
 import NavigationBar from "../components/NavigationBar";
 import { Link } from "react-router-dom";
+import Footer from "../components/footer";
 
 const SignupPage = () => {
   const navigate = useNavigate();
@@ -84,6 +85,8 @@ const SignupPage = () => {
         </p>
       </form>
       <ToastContainer position="top-right" autoClose={3000} />
+
+      < Footer />
     </main>
   );
 };
